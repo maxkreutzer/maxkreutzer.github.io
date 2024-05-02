@@ -1,16 +1,64 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-        <meta name="viewport" content="user-scalable=no">
-        <link rel="icon" href="icon/icon.png" type="image/png">
-        <link rel="apple-touch-icon" href="icon/icon.png">
-        <link rel="stylesheet" type="text/css" href="css/game.css">
-        <title>Get To School 5</title>
-    </head>
-    <body style="background-color: black">
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #content {
+            width: 70%;
+            background-color: lightblue;
+            margin: auto;
+        }
+
+        .smallBoxes {
+            width: 40%;
+            background-color: brown;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .bigBox {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .smallBoxes img {
+            width: 100%;
+            object-fit: contain;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="content">
+        <h1 style="text-align: center;">Crouton's Website</h1>
+        <div class="bigBox">
+
+            <div class="smallBoxes">
+                <h2>About Crouton</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum possimus rerum itaque culpa
+                    quibusdam aliquid. Repellat excepturi, voluptatum necessitatibus inventore laborum sint dicta
+                    repudiandae libero sapiente? Earum nulla ullam est?
+            </div>
+            <div class="smallBoxes">
+                <h2>My Game</h2>
+                <p>Click <a href=game/index.html>here</a> to play my game.</p>
+            </div>
+        </div>
+        <div class="bigBox">
+
+            <div class="smallBoxes">
+                <h2>Good Croutons</h2>
+                <img src="img/croutons-1.jpg" alt="" style="transform: scaleX(-1)">
+            </div>
+            <div class="smallBoxes">
+                <h2>Bad Croutons</h2>
+                <img src="img/croutons-1.jpg" alt="" style="filter: invert(100%)">
+            </div>
+        </div>
+    </div>
+</body>
+
 </html>
