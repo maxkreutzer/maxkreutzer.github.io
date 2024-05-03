@@ -3,60 +3,89 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #content {
-            width: 70%;
-            background-color: lightblue;
-            margin: auto;
+        body {
+            background-color: burlywood;
         }
-
-        .smallBoxes {
-            width: 40%;
-            background-color: brown;
-            margin: 10px;
+        h1 {
             text-align: center;
         }
 
-        .bigBox {
-            display: flex;
-            justify-content: space-evenly;
+        #content {
+            background-color: aqua;
+            margin: auto;
+            width: 75%;
+            padding: 10px;
+            border-radius: 10px;
         }
 
-        .smallBoxes img {
-            width: 100%;
-            object-fit: contain;
+        #bigContainer {
+            background-color: rgb(128, 255, 255);
+            display: flex;
+            justify-content: space-evenly;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        #smallContainer {
+            width: 40%;
+        }
+
+        .smallBox {
+            background-color: white;
+            margin: 10px;
+            padding: 4px;
+        }
+
+        .bigBox {
+            background-color: white;
+            margin: 10px;
+            width: 40%;
+            padding: 4px;
+        }
+        .allBoxes {
+            border: 1px solid black;
+            box-shadow: 5px 5px 1px black;
         }
     </style>
 </head>
 
 <body>
     <div id="content">
-        <h1 style="text-align: center;">Crouton's Website</h1>
-        <div class="bigBox">
+        <h1>Header</h1>
+        <div id="bigContainer">
+            <div id="smallContainer">
+                <div class="smallBox allBoxes">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus laudantium, perferendis saepe
+                        odit assumenda mollitia fugiat, fugit nihil possimus rem temporibus. Magnam maxime a corrupti
+                        dolores, exercitationem tenetur est voluptas.</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Game</h2>
+                    <p>Click <a href="game/gettoschool5/index.html">here</a> to play my game!</p>
+                </div>
+                <div class="smallBox allBoxes">
+                    <h2>Images</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illo dolorem nulla laudantium
+                        accusamus iure laboriosam necessitatibus quae fugit beatae et magnam, suscipit ducimus alias.
+                        Ratione assumenda ipsa quibusdam optio?</p>
+                </div>
+            </div>
+            <div class="bigBox allBoxes">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in repudiandae illum labore, nisi
+                    culpa, vero quo at ducimus nesciunt vitae maiores rerum, ratione dolorum dolores quam beatae minus
+                    odit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti, officia quisquam
+                    reiciendis veritatis ipsum sit eum? Architecto laborum quod illum facilis vel, qui officia saepe
+                    neque aperiam. Mollitia, officiis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam saepe, assumenda obcaecati aperiam
+                    quidem officia esse commodi veritatis sapiente possimus non suscipit recusandae nulla quibusdam
+                    ullam ea, aut sed sint!</p>
+            </div>
 
-            <div class="smallBoxes">
-                <h2>About Crouton</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum possimus rerum itaque culpa
-                    quibusdam aliquid. Repellat excepturi, voluptatum necessitatibus inventore laborum sint dicta
-                    repudiandae libero sapiente? Earum nulla ullam est?
-            </div>
-            <div class="smallBoxes">
-                <h2>My Game</h2>
-                <p>Click <a href=game/index.html>here</a> to play my game.</p>
-            </div>
-        </div>
-        <div class="bigBox">
-
-            <div class="smallBoxes">
-                <h2>Good Croutons</h2>
-                <img src="img/croutons-1.jpg" alt="" style="transform: scaleX(-1)">
-            </div>
-            <div class="smallBoxes">
-                <h2>Bad Croutons</h2>
-                <img src="img/croutons-1.jpg" alt="" style="filter: invert(100%)">
-            </div>
         </div>
     </div>
 </body>
