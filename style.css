@@ -1,0 +1,116 @@
+body {
+    background: burlywood;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+#content1 {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+#bigContainer {
+    background-color: beige;
+    justify-content: space-evenly;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+.smallBox {
+    background-color: white;
+    margin: 10px;
+    padding: 4px;
+    border-radius: 10px;
+}
+
+.allBox {
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+    border-radius: 10px;
+
+}
+
+.listItems {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+#textCenter {
+    text-align: center;
+}
+
+.bigBox {
+    background-color: white;
+    margin: 10px;
+    width: 40%;
+    padding: 4px;
+}
+
+#bigBoxContainer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+#image {
+    padding: 10px;
+    text-align: center;
+}
+
+#content2 {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+}
+
+
+.aboutMeBox {
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+
+    padding: 10px;
+    display: flex;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+.space {
+    padding: 10px;
+    display: inline-block;
+}
+
+.goBack {
+    border: 1px solid black;
+    box-shadow: 5px 5px 1px black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 7%;
+    background-color: antiquewhite;
+    display: inline-block;
+    text-align: center;
+   
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+
+}
+#moo{
+    justify-content:space-evenly;
+    
+}

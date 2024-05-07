@@ -4,90 +4,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body {
-            background-color: burlywood;
-        }
-        h1 {
-            text-align: center;
-        }
-
-        #content {
-            background-color: aqua;
-            margin: auto;
-            width: 75%;
-            padding: 10px;
-            border-radius: 10px;
-        }
-
-        #bigContainer {
-            background-color: rgb(128, 255, 255);
-            display: flex;
-            justify-content: space-evenly;
-            padding: 10px;
-            border-radius: 10px;
-        }
-
-        #smallContainer {
-            width: 40%;
-        }
-
-        .smallBox {
-            background-color: white;
-            margin: 10px;
-            padding: 4px;
-        }
-
-        .bigBox {
-            background-color: white;
-            margin: 10px;
-            width: 40%;
-            padding: 4px;
-        }
-        .allBoxes {
-            border: 1px solid black;
-            box-shadow: 5px 5px 1px black;
-        }
-    </style>
+    <title>Crouton's Website</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div id="content">
-        <h1>Header</h1>
+    <div id="content1">
+        <h1>Crouton's Website</h1>
+        <div id="image">
+            <img src="https://www.fifteenspatulas.com/wp-content/uploads/2019/01/Croutons-Fifteen-Spatulas-3-480x270.jpg"
+                alt="Croutons" width="350px" height="150px">
+        </div>
         <div id="bigContainer">
             <div id="smallContainer">
-                <div class="smallBox allBoxes">
-                    <h2>About</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus laudantium, perferendis saepe
-                        odit assumenda mollitia fugiat, fugit nihil possimus rem temporibus. Magnam maxime a corrupti
-                        dolores, exercitationem tenetur est voluptas.</p>
-                </div>
-                <div class="smallBox allBoxes">
-                    <h2>Game</h2>
-                    <p>Click <a href="game/gettoschool5/index.html">here</a> to play my game!</p>
-                </div>
-                <div class="smallBox allBoxes">
-                    <h2>Images</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta illo dolorem nulla laudantium
-                        accusamus iure laboriosam necessitatibus quae fugit beatae et magnam, suscipit ducimus alias.
-                        Ratione assumenda ipsa quibusdam optio?</p>
+                <div class="smallBox allBox">
+                    <h2>Links</h2>
+                    <div id="textCenter">
+                        <ul>
+                            <div class="listItems">
+                                <li><a href="aboutme.html">About Me</a></li>
+                            </div>
+                            <div class="listItems">
+                                <li><a href="game/index.html" target="_blank">My Game</a></li>
+                            </div>
+                            <div class="listItems">
+                                <li><a href="https://www.youtube.com/@qibliRL" target="blank">Youtube</a></li>
+                            </div>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
-            <div class="bigBox allBoxes">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in repudiandae illum labore, nisi
-                    culpa, vero quo at ducimus nesciunt vitae maiores rerum, ratione dolorum dolores quam beatae minus
-                    odit.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi corrupti, officia quisquam
-                    reiciendis veritatis ipsum sit eum? Architecto laborum quod illum facilis vel, qui officia saepe
-                    neque aperiam. Mollitia, officiis!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam saepe, assumenda obcaecati aperiam
-                    quidem officia esse commodi veritatis sapiente possimus non suscipit recusandae nulla quibusdam
-                    ullam ea, aut sed sint!</p>
+            <div id="bigBoxContainer">
+                <div class="bigBox allBox">
+                    <h2>What is this website for?</h2>
+                    <p id="textCenter">This website is to show what I have learned during my 9th grade programming
+                        class!
+                    </p>
+                </div>
+                <div class="bigBox allBox">
+                    <h2>What to do?</h2>
+                    <p id="textCenter">Here, you can play my games, read all about me, and more!
+                    </p>
+                </div>
             </div>
+
 
         </div>
     </div>
+
 </body>
 
 </html>
